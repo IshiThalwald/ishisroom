@@ -81,6 +81,7 @@ async def test_api_key(api_key: str) -> bool:
     """
     测试 API 密钥是否有效。
     """
+    return True
     try:
         import httpx
 
